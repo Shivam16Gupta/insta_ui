@@ -20,49 +20,40 @@ import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   appBar:{
-    
+    display:'flex',
     background:'#FFFFFF',
     boxShadow:'none',
     borderBottom:'1px solid #DBDBDB',
     height:'7.5vh',
-    
-  
+    justifyContent:'center',
+    alignItems:'space-around',
   },
   grow: {
     flexGrow: 1,
+    
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
+  
   title: {
     display: 'none',
-    [theme.breakpoints.up('sm')]: {
-      display: 'block',
-    },
+    
   },
   search: {
-    
+    display:'flex',
     height:'25px',
-    position: 'relative',
+    
     border:'1px solid #DBDBDB',
-    borderRadius: theme.shape.borderRadius,
+    borderRadius:'3px',
     backgroundColor: '#FAFAFA',
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
-    width: '100%',
-    [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(3),
-      width: 'auto',
-    },
+    marginLeft:'30%',
   },
   searchIcon: {
-    padding: theme.spacing(0.3, 7),
+   
     height: '100%',
-    position: 'absolute',
+    
     pointerEvents: 'none',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center',
+    
     color:'#B5B5B5',
   
   },
@@ -70,15 +61,8 @@ const useStyles = makeStyles((theme) => ({
     color: '#B5B5B5',
   },
   inputInput: {
-    marginLeft:'25px',
-    padding: theme.spacing(0.5, 0, 0, 0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(1em + ${theme.spacing(7)}px)`,
-    transition: theme.transitions.create('width'),
-    width: '100%',
-    [theme.breakpoints.up('md')]: {
-      width: '20ch',
-    },
+    marginLeft:0,
+    
   },
   sectionDesktop: {
     display: 'none',
@@ -199,8 +183,10 @@ const NavBar=()=> {
   return (
     <div className={classes.grow}>
       <AppBar position="static" className={classes.appBar}>
+      
         <Toolbar>
-          <img src={logo} alt='logo'/>
+          <Link to='/'>
+        <img src={logo} alt='logo'/></Link>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />

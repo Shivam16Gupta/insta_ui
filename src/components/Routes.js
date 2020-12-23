@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home';
+import Home from './Home.js';
 import Message from './Message';
 // import Explore from './Explore';
 // import Notif from './Notif';
@@ -14,8 +14,9 @@ const Routes=()=>{
             <div>
             
                 <Switch>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/message" exact component={Message}/>
+                    <Route path="/message"  component={Message}/>
+                    <Route path="/"  component={Home}/>
+                    
                     {/* <Route path='/explore' exact component={Explore}/> */}
                     {/* <Route path='/notif' exact component={Notif}/> */}
                     {/* <Route path='/profile' exact component={Profile}/> */}
