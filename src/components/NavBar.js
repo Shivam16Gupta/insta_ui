@@ -25,13 +25,9 @@ const useStyles = makeStyles((theme) => ({
     boxShadow:'none',
     borderBottom:'1px solid #DBDBDB',
     height:'7.5vh',
-    justifyContent:'center',
-    alignItems:'space-around',
+    justifyContent:'space-around',
   },
-  grow: {
-    flexGrow: 1,
-    
-  },
+  
   
   title: {
     display: 'none',
@@ -40,11 +36,11 @@ const useStyles = makeStyles((theme) => ({
   search: {
     display:'flex',
     height:'25px',
-    
+    marginLeft:'200px',
     border:'1px solid #DBDBDB',
     borderRadius:'3px',
     backgroundColor: '#FAFAFA',
-    marginLeft:'30%',
+    
   },
   searchIcon: {
    
@@ -184,7 +180,7 @@ const NavBar=()=> {
     <div className={classes.grow}>
       <AppBar position="static" className={classes.appBar}>
       
-        <Toolbar>
+        <Toolbar className={classes.appBar}>
           <Link to='/'>
         <img src={logo} alt='logo'/></Link>
           <div className={classes.search}>
@@ -202,22 +198,26 @@ const NavBar=()=> {
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
+          <Link to="/">
           <IconButton aria-label="home">
               <Badge  color="secondary">
-              <Link to="/">
+              
                 <HomeIcon />
-              </Link>
+              
               </Badge>
             </IconButton>
+            </Link>
+            <Link to="/message">
             <IconButton aria-label="show 4 new mails">
               <Badge badgeContent={4} color="secondary">
                 
-                <Link to="/message">
+                
                 <MailIcon />
-                </Link>
+                
                 
               </Badge>
             </IconButton>
+            </Link>
             <IconButton aria-label="show 4 new mails" >
               <Badge badgeContent={4} color="secondary">
                 <ExploreIcon />
