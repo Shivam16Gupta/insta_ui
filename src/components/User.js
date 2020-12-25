@@ -5,8 +5,9 @@ const User=()=>{
 
     return(
         <div>
-            <p>user profile</p>
             <h1>HI</h1>
+            <p>user profile</p>
+            
         </div>
     );
 }
