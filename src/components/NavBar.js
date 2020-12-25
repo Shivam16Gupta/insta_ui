@@ -11,6 +11,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
 import HomeIcon from '@material-ui/icons/Home';
+import Divider from '@material-ui/core/Divider';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ExploreIcon from '@material-ui/icons/Explore';
 import MoreIcon from '@material-ui/icons/MoreVert';
@@ -26,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     borderBottom:'1px solid #DBDBDB',
     height:'7.5vh',
     justifyContent:'space-around',
+    top:0,
+    position:'fixed',
+    width:'100%',
   },
   
   
@@ -110,12 +114,12 @@ const NavBar=()=> {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Saved</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Settings</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Switch Accounts</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Logout</MenuItem>
-
+      <MenuItem onClick={handleMenuClose}>Deku liked your post</MenuItem>
+      <Divider/>
+      <MenuItem onClick={handleMenuClose}>Saitama liked your post</MenuItem>
+      <Divider/>
+      <MenuItem onClick={handleMenuClose}>Eren liked your post</MenuItem>
+      
     </Menu>
   );
 
@@ -207,7 +211,7 @@ const NavBar=()=> {
               </Badge>
             </IconButton>
             </Link>
-            <Link to="/message">
+            
             <IconButton aria-label="show 4 new mails">
               <Badge badgeContent={4} color="secondary">
                 
@@ -217,27 +221,30 @@ const NavBar=()=> {
                 
               </Badge>
             </IconButton>
-            </Link>
+            
             <IconButton aria-label="show 4 new mails" >
               <Badge badgeContent={4} color="secondary">
                 <ExploreIcon />
               </Badge>
             </IconButton>
-            <IconButton aria-label="show 4 new notifications">
-              <Badge badgeContent={4} color="secondary">
-                <FavoriteIcon />
-              </Badge>
-            </IconButton>
+            
             <IconButton
               edge="end"
-              aria-label="account of current user"
+              aria-label="show 4 new notifications"
               aria-controls={menuId}
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
               
             >
+              <Badge badgeContent={3} color="secondary">
+                <FavoriteIcon />
+              </Badge>
+            </IconButton>
+            <Link to="/user">
+            <IconButton aria-label="user account">
               <AccountCircle />
             </IconButton>
+            </Link>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
