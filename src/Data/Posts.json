@@ -1,197 +1,206 @@
 [
     {
+      "id": 0,
       "likes": 12,
       "description": "happy animals!",
       "profile_name": "Aron",
-      "image_url": "/Data/images/dishes.jpg",
-      "profile_url": "/Data/images/dishes.jpg",
-      "content":" This impressive paella is a perfect party dish and a fun meal to cook together with yourguests. Add 1 cup of frozen peas along with the mussels, if you like.",
-      "comments": 
+      "image_url": "images/post1.jpg",
+      "profile_url": "images/avatar1.jpg",
+      "content":"What a cute family.",
+      "comments":
         {
           "message": "cool!",
           "from": "Liz",
           "profile_name": "Meko222",
           "likes": 2,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar2.jpg"
         }
-      
+
     },
     {
+      "id": 1,
       "likes": 8,
-      "description": "Food!",
-      "image_url": "assets/images/food-2.jpg",
+      "description": "Yoga",
+      "image_url": "images/post2.jpg",
       "profile_name": "Jul",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "profile_url": "images/avatar3.jpg",
+      "comments":
         {
           "message": "Wow!",
           "profile_name": "Mekanik",
           "from": "Liz",
           "likes": 1,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar4.jpg"
         }
-      
+
     },
     {
+      "id": 2,
       "likes": 5,
-      "description": "happy animals!",
-      "image_url": "assets/images/animal-3.jpg",
-      "profile_url": "assets/images/profile.jpg",
+      "description": "Ambience!",
+      "image_url": "images/post3.jpg",
+      "profile_url": "images/avatar5.jpg",
       "profile_name": "Mierto",
-      "comments": 
+      "comments":
         {
           "message": "cool!",
           "profile_name": "Wowz772",
           "from": "Liz",
           "likes": 0,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar6.jpg"
         }
-      
+
     },
     {
-      
+      "id": 3,
         "likes": 12,
-        "description": "happy animals!",
+        "description": "Pattern",
         "profile_name": "Aron",
-        "image_url": "/Data/images/dishes.jpg",
-        "profile_url": "/Data/images/dishes.jpg",
+        "image_url": "images/post4.jpg",
+        "profile_url": "images/avatar7.jpg",
         "content":" This impressive paella is a perfect party dish and a fun meal to cook together with yourguests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "comments": 
+        "comments":
           {
             "message": "cool!",
             "from": "Liz",
             "profile_name": "Meko222",
             "likes": 2,
-            "profile_image_url": "assets/images/profile.jpg"
+            "profile_image_url": "images/avatar8.jpg"
           }
-        
+
       },
     {
+      "id": 4,
       "likes": 5,
-      "description": "happy animals!",
-      "image_url": "assets/images/anime-1.jpg",
+      "description": "My thoughts",
+      "image_url": "images/post5.jpg",
       "profile_name": "Aron",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "profile_url": "images/avatar1.jpg",
+      "comments":
         {
           "message": "cool!",
           "from": "Liz",
           "profile_name": "yugi",
           "likes": 0,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar2.jpg"
         }
-      
+
     },
     {
-      
+      "id": 5,
         "likes": 12,
-        "description": "happy animals!",
+        "description": "sunset!!!",
         "profile_name": "Aron",
-        "image_url": "/Data/images/dishes.jpg",
-        "profile_url": "/Data/images/dishes.jpg",
+        "image_url": "images/post6.jpg",
+        "profile_url": "images/avatar3.jpg",
         "content":" This impressive paella is a perfect party dish and a fun meal to cook together with yourguests. Add 1 cup of frozen peas along with the mussels, if you like.",
-        "comments": 
+        "comments":
           {
             "message": "cool!",
             "from": "Liz",
             "profile_name": "Meko222",
             "likes": 2,
-            "profile_image_url": "assets/images/profile.jpg"
+            "profile_image_url": "images/avatar4.jpg"
           }
-        
+
       },
     {
+      "id": 6,
       "likes": 5,
-      "description": "happy animals!",
+      "description": "CS-GO",
       "profile_name": "Crabraver",
-      "image_url": "assets/images/food-3.jpg",
-      "profile_url": "assets/images/profile.jpg",
+      "image_url": "images/post7.jpg",
+      "profile_url": "images/avatar5.jpg",
       "comments": [
         {
           "message": "cool!",
           "from": "Liz",
           "profile_name": "Dicer",
           "likes": 0,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar6.jpg"
         }
       ]
     },
     {
+      "id": 7,
       "likes": 2,
-      "description": "Wow #Death_note was so cool!",
+      "description": "aadhyatma",
       "profile_name": "Aron",
-      "image_url": "assets/images/anime-2.jpg",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "image_url": "images/post8.jpg",
+      "profile_url": "images/avatar7.jpg",
+      "comments":
         {
           "message": "Cute!",
           "from": "Liz",
           "profile_name": "RoboCop",
           "likes": 2,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar8.jpg"
         }
     },
     {
+      "id": 8,
       "likes": 5,
-      "description": "This looks like some delicious #Food!",
-      "image_url": "assets/images/food-1.jpg",
+      "description": "happy animals!",
+      "image_url": "images/post1.jpg",
       "profile_name": "Thomas",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "profile_url": "images/avatar1.jpg",
+      "comments":
         {
           "message": "cool!",
           "from": "Liz",
           "profile_name": "Arturito",
           "likes": 0,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar2.jpg"
         }
-      
+
     },
     {
+      "id": 9,
       "likes": 2,
-      "description": "happy animals!",
-      "image_url": "assets/images/animal-2.jpg",
+      "description": "Yoga",
+      "image_url": "images/post2.jpg",
       "profile_name": "Rio",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "profile_url": "images/avatar3.jpg",
+      "comments":
         {
           "message": "Cute!",
           "from": "Liz",
           "likes": 2,
           "profile_name": "Aaron",
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar4.jpg"
         }
     },
     {
+      "id": 10,
       "likes": 5,
-      "description": "happy animals!",
+      "description": "Ambience",
       "profile_name": "Kzzt__",
-      "image_url": "assets/images/food-5.jpg",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "image_url": "images/post3.jpg",
+      "profile_url": "images/avatar5.jpg",
+      "comments":
         {
           "message": "cool!",
           "from": "Liz",
           "profile_name": "Mnoz_x",
           "likes": 0,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar6.jpg"
         }
-      
+
     },
     {
+      "id":11,
       "likes": 2,
-      "description": "happy animals!",
+      "description": "Pattern",
       "profile_name": "Panter042",
-      "image_url": "assets/images/food-6.jpg",
-      "profile_url": "assets/images/profile.jpg",
-      "comments": 
+      "image_url": "images/post4.jpg",
+      "profile_url": "images/avatar7.jpg",
+      "comments":
         {
           "message": "Cute!",
           "from": "Liz",
           "profile_name": "echo-777",
           "likes": 2,
-          "profile_image_url": "assets/images/profile.jpg"
+          "profile_image_url": "images/avatar8.jpg"
         }
     }
   ]
- 

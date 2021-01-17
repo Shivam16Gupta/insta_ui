@@ -38,21 +38,29 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     width: '100%',
+    maxWidth:'600px',
     backgroundColor: theme.palette.background.paper,
     marginTop:'100px',
     boxShadow:'none',
     border: '1px solid #DBDBDB',
-    height:'70px',
+    height:'100px',
+
+  },
+  align:{
+
   },
   tabs:{
     display:'flex',
     alignItems:'center',
-    marginTop:'10px',
-    
+    marginTop:'25px',
+
   },
   avatar:{
     marginLeft:'5px',
     cursor:'pointer',
+    height:'50px',
+    width:'50px',
+    
   }
 }));
 
@@ -65,7 +73,7 @@ const Stories=()=> {
   };
 
   return (
-    <div >
+    <div className={classes.align}>
       <AppBar position="static" color="default" className={classes.root}>
         <Tabs
           className={classes.tabs}
@@ -77,24 +85,22 @@ const Stories=()=> {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          
-          <Avatar alt="Remy Sharp" src="/Data/images/dishes.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar  className={classes.avatar}alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          <Avatar className={classes.avatar} alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-          
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar1.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar2.jpg" />
+          <Avatar className={classes.avatar}alt="Remy Sharp" src="images/avatar3.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar4.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar5.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar6.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar7.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar8.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar1.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar2.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar3.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar4.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar5.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar6.jpg" />
+          <Avatar className={classes.avatar} alt="Remy Sharp" src="images/avatar7.jpg" />
+
         </Tabs>
       </AppBar>
     </div>

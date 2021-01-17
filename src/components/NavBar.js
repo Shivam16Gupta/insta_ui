@@ -15,7 +15,6 @@ import Divider from '@material-ui/core/Divider';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ExploreIcon from '@material-ui/icons/Explore';
 import MoreIcon from '@material-ui/icons/MoreVert';
-import logo from '../assets/images/logo.png';
 import {Link} from 'react-router-dom';
 
 
@@ -186,7 +185,7 @@ const NavBar=()=> {
       
         <Toolbar className={classes.appBar}>
           <Link to='/'>
-        <img src={logo} alt='logo'/></Link>
+        <img src={'images/logo.png'} alt='logo'/></Link>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
