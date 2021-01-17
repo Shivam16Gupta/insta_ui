@@ -1,0 +1,24 @@
+.arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.box1{
+    flex:0 0 300px;
+
+}
+.box2{
+    flex:0 0 200px;
+    margin-left: 30px;
+
+
+}
+@media screen and (max-width: 999px) {
+    .box2 {
+      display: none;
+
+    }
+    .box1{
+        justify-content: center;
+    }
+  }
